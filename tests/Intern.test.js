@@ -2,21 +2,21 @@
 const Intern = require('../lib/Intern');
 
 // creating intern object  
-test('creates an Intern object', () => {
+test('Should return an Intern object', () => {
     const intern = new Intern('Tony', 3, 'test@gmail.com', 'University of Texas');
     
     expect(intern.school) .toEqual(expect.any(String));
 });
 
 // gets school from getSchool()
-test('gets employee school', () => {
+test('Should get intern school', () => {
     const intern = new Intern('Tony', 3, 'test@gmail.com', 'University of Texas');
     
     expect(intern.getSchool()).toEqual(expect.stringContaining(intern.school.toString()));
 });
 
 // gets role from getRole()
-test('gets role of employee', () => {
+test('Should get role of intern', () => {
     const intern = new Intern('Tony', 3, 'test@gmail.com', 'University of Texas');
 
     expect(intern.getRole()).toEqual("Intern");

@@ -2,7 +2,7 @@
 const Employee = require('../lib/Employee');
 
 // creates employee object 
-test('creates an employee object', () => {
+test('Should return an employee object with name, id, and email', () => {
     const employee = new Employee('Tony', 1, 'Tony@test.com');
 
     expect(employee.name).toEqual(expect.any(String));
@@ -11,28 +11,28 @@ test('creates an employee object', () => {
 });
 
 // gets id from getId() 
-test('gets employee name', () => {
+test('Should get employee name', () => {
     const employee = new Employee('Tony', 1, 'Tony@test.com');
 
     expect(employee.getName()).toEqual(expect.any(String));
 });
 
 // gets id from getId() 
-test('gets employee ID', () => {
+test('Should get employee ID', () => {
     const employee = new Employee('Tony', 1, 'Tony@test.com');
 
     expect(employee.getId()).toEqual(expect.any(Number));
 });
 
 // gets emails from getEmail()
-test('gets employee email', () => {
+test('Should get employee email', () => {
     const employee = new Employee('Tony', 1, 'Tony@test.com');
 
     expect(employee.getEmail()).toEqual(expect.stringContaining(employee.email.toString()));
 });
 
 // gets role from getRole()
-test('gets role of employee', () => {
+test('Should get role of employee', () => {
     const employee = new Employee('Tony', 1, 'Tony@test.com');
 
     expect(employee.getRole()).toEqual("Employee");
