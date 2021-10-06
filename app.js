@@ -13,7 +13,7 @@ let completeTeamArray = [];
 function startingPrompt() {
     inquirer.prompt([
         {
-            message: "Welcome to the ultimate team profile creator! What is your team name?",
+            message: "Welcome to the ultimate team profile creator! Please enter your teams name?",
             name: "teamname"
         }
     ])
@@ -27,17 +27,17 @@ function startingPrompt() {
 function addManager() {
     inquirer.prompt([
         {
-            message: "What is your team manager's name?",
+            message: "Please enter your team manager's name?",
             name: "name"
         },
         {
-            message: "What is your team manager's email address?",
+            message: "Please provide your team manager's email address?",
             name: "email"
         },
 
         {
             type: "number",
-            message: "What is your team manager's office number?",
+            message: "Please provide your team manager's office number?",
             name: "officeNumber"
         },
     ])
