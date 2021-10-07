@@ -1,3 +1,8 @@
+https://youtu.be/3G-FM5U5s0s
+
+/Users/anthonybrown/Desktop/BOOTCAMP-WEEKLY-ACTIVITIES/WK10/Team-Generator/profile-generated/Big Dogs.html
+
+
 ![Screen Shot 2021-10-06 at 4 13 27 PM](https://user-images.githubusercontent.com/85444308/136285645-769ad85f-bd53-4cde-a4c6-6b3f960602b9.png)
 
 ![Screen Shot 2021-10-06 at 4 16 20 PM](https://user-images.githubusercontent.com/85444308/136285698-9f0e8834-dd0b-47e9-8637-f97b68138847.png)
